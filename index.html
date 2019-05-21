@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>DuocUC Eventos</title>
+        <link rel="icon" href="img/logo2.jpg" />
+        <link rel="stylesheet" href="styles/fontello.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/menu.css">
+        <link rel="stylesheet" href="styles/banner.css">
+        <link rel="stylesheet" href="styles/blog.css">
+        <link rel="stylesheet" href="styles/carousel.css">
+        <link rel="stylesheet" href="styles/galery.css">
+        <link rel="stylesheet" href="styles/flexslider.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script src="js/jquery.flexslider.js"></script>
+        <script src="js/jquery.fancybox.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles/jquery.fancybox.css" media="screen" />
+        <link rel="icon" href="/logo2.jpg" />
+    </head>
+    <body>
+        <header>
+            <div class="cont">
+                <a href="index.html">
+                    <img id="imgLogo" src="img/logo.png" alt="logo Eventos" />
+                </a> 
+               <input type="checkbox" id="menu-bar">
+               <label class="icon-menu" for="menu-bar"></label>
+               <nav class="menu">
+                    <a href="index.html">Inicio</a>
+                    <a href="pages/galeria/galeria.html">Galeria</a>
+                    <a href="#">Mis eventos</a>
+                    
+               </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="carousel">
+                <div class="flexslider">
+                    <ul class="slides">
+                        <li>
+                            <img src="img/allin.jpg" alt="Evento 1" />
+                            <p class="flex-caption">"Recientemente se realizó la final de #ALLInChile, evento de Emprendimiento e Innovación que recibe más de mil postulaciones"</p>
+                        </li>
+                        <li>
+                            <img src="img/expo1.jpg" alt="Evento 2"/>
+                            <p class="flex-caption">"Duoc UC presenta exposición itinerante de André Racz: Luz Herida"</p>
+                        </li>
+                        <li>
+                            <img src="img/expo2.jpg" alt="Eventos DuocUC"/>
+                            <p class="flex-caption">"Cientos de eventos realizados y miles que aun te esperan. Mantente al dia con Eventos DUOCUC"</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    
+
+            <div class="blog">
+                <div class="cont">
+                    <article id="rescue">
+                        <h2><b>CHARLAS</b></h2>
+                        <h3>______</h3>
+                        <h4>Charlas informativas y motivacionales realizadas por grandes profesionales de diversas carreras</h4>
+                        <br>
+                        <h4>siempre dispuestos a ayudarte.</h4>
+                        <img id="imgMain" src="img/charla3.jpg" alt="Charla rec"><img id="imgMain" src="img/charla1.jpg" alt="Charla rec">
+                    </article>
+
+                    <article id="crowd">
+                        <img id="imgMain" src="img/recre1.PNG" alt="Eventos deportivos"><img id="imgMain" src="img/recre2.PNG" alt="Eventos deportivos">
+                        <h2><b>Eventos recreativos</b></h2>
+                        <h3>Al aire libre</h3>
+                        <h3>______</h3>
+                        <h4>Procuramos la mejor experiencia academica tanto dentro y fuera del aula</h4>
+                        <br>
+                        <h4>Eventos de alta convocatoria pensados para nuestros alumnos.</h4>
+                        <a href="#"><b>Eventos</b></a>
+                    </article>
+                </div>
+            </div>
+
+            <div class="galery">
+                <div class="photos">
+                    <a class="fancybox" href="" data-fancybox-group="gallery" title="">
+                        <img src="img/recre1.png" alt="Recreativos" />
+                    </a> 
+                    <a class="fancybox" href="" data-fancybox-group="gallery" title="">
+                        <img src="" alt="" />
+                    </a> 
+                    <a class="fancybox" href="" data-fancybox-group="gallery" title="">
+                        <img src="" alt="" />
+                    </a>
+                    <a class="fancybox" href="" data-fancybox-group="gallery" title="">
+                        <img src="" alt="" />
+                    </a> 
+                    <a class="fancybox" href="" data-fancybox-group="gallery" title="">
+                        <img src="" alt="" />
+                    </a> 
+                    <a class="fancybox" href="" data-fancybox-group="gallery" title="">
+                        <img src="" alt="" />
+                    </a>
+                    <a class="fancybox" href="" data-fancybox-group="gallery" title="">
+                        <img src="" alt="" />
+                    </a>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="cont">
+                <p class="copy">DUOC UC &copy; 2019</p>
+                <a href="tel:2 2999 3862">
+                    <br>2 2999 3862
+                </a>
+                <div class="social">
+                    <a class="icon-facebook-circled" href="https://www.facebook.com/DuocUC/"></a>
+                    <a class="icon-instagram-circled" href="https://www.instagram.com/duocuc_cl/"></a>
+                    <a class="icon-mail-circled" href="#"></a>
+                </div>
+            </div>
+
+        </footer>
+        <script>
+            $(window).load(function() {
+                $('.flexslider').flexslider({
+                    animation: "slide"
+                });
+            });
+            </script>
+        
+            <script>
+                $(document).ready(function() {
+                    $('.fancybox').fancybox({ keyboard : true });
+                 
+                });
+            </script>
+    </body>
+</html>
